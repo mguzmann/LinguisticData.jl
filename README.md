@@ -20,8 +20,8 @@ total 2388
 * beginningReaders.rda
 * clean.R
 * danish.rda
-* danks.rda
-* dativeLR.rda
+* danks.rda (version found in the "ndl" package)
+* dativeLR.rda (version found in the "languageR" package)
 * dative.rda
 * dativeSimplified.rda
 * durationsGe.rda
