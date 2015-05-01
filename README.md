@@ -4,9 +4,11 @@ This is a simple collection of linguistic data sets. For now it only contains th
 
 To use simply do:
 
->using LingData
+```
+using LingData
 
->dative = dataset("dative")
+dative = dataset("dative")
+```
 
 
 ## Data sets included:
