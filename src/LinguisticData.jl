@@ -1,4 +1,4 @@
-module LingData
+module LinguisticData
 
     using Reexport
     @reexport using DataFrames
@@ -6,6 +6,4 @@ module LingData
     export dataset
 
     include("dataset.jl")
-    ## include("datasets.jl")
-    ## include("packages.jl")
 end # module
