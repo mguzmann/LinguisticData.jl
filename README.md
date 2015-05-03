@@ -13,7 +13,6 @@ dative = dataset("dative")
 
 ## Data sets included:
 
-total 2388
 * affixProductivity.rda
 * alice.rda
 * auxiliaries.rda
