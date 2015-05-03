@@ -1,6 +1,6 @@
 # LinguisticData
 
-This is a simple collection of linguistic data sets. For now it only contains those data sets including in the NDL package: http://cran.r-project.org/web/packages/ndl/index.html, and those included in the languageR package: http://cran.r-project.org/web/packages/languageR/index.html. I will include more data sets in the future. If you're the owner of any of these data sets and you feel it shouldn't be included here, please let me know and I'll remove it.
+This is a simple collection of linguistic data sets. For now it only contains those data sets included in the NDL package: http://cran.r-project.org/web/packages/ndl/index.html, and those included in the languageR package: http://cran.r-project.org/web/packages/languageR/index.html. I will include more data sets in the future. If you're the owner of any of these data sets and you feel it shouldn't be included here, please let me know and I'll remove it.
 
 To use simply do:
 
