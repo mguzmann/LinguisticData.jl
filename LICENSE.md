@@ -1,4 +1,3 @@
-The LingData.jl package is licensed under the MIT "Expat" License:
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
