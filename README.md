@@ -5,7 +5,7 @@ This is a simple collection of linguistic data sets. For now it only contains th
 To use simply do:
 
 ```
-Pkg.add("LinguisticData")
+Pkg.clone("LinguisticData")
 
 using LinguisticData
 
