@@ -77,3 +77,7 @@ dative = dataset("dative")
 * warlpiri.rda
 * weightRatings.rda
 * writtenVariationLijk.rda
+
+## To do:
+
+Add descriptions of the datasets.

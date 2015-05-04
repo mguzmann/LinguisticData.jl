@@ -1,5 +1,4 @@
 # From RDatasets
-import DataFrames.DataFrame
 
 #################
 
@@ -33,7 +32,10 @@ function dataset(dataset_name::String)
             return data.data #This handles datasest that are just a vector of text
         end
     end
-
+    filename = joinpath(basename, string(dataset_name, ".csv"))
+    if isfile(filename)
+        return readtable(filename)
+    end
     filename = joinpath(basename, string(dataset_name, ".csv.gz"))
     if !isfile(filename)
         error(@sprintf "Unable to locate file %s or %s\n" rdaname filename)
