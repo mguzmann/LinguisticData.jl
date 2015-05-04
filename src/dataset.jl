@@ -1,4 +1,7 @@
 # From RDatasets
+import DataFrames.DataFrame
+
+#################
 
 function dataset(package_name::String, dataset_name::String)
     basename = joinpath(dirname(@__FILE__), "..", "data", package_name)
@@ -22,7 +25,13 @@ function dataset(dataset_name::String)
 
     rdaname = joinpath(basename, string(dataset_name, ".rda"))
     if isfile(rdaname)
-        return DataFrame(read_rda(rdaname)[dataset_name])
+        data = read_rda(rdaname)[dataset_name]
+        print(typeof(data))
+        try
+            return DataFrame(data)
+        catch
+            return data.data #This handles datasest that are just a vector of text
+        end
     end
 
     filename = joinpath(basename, string(dataset_name, ".csv.gz"))
